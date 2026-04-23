@@ -1,0 +1,35 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-gateways",
+    "name": "passimpay-payment-gateway",
+    "license": "MIT",
+    "category": "gateway",
+    "description": {
+        "name": "PassimPay — Crypto & Fiat Payment Gateway",
+        "tagline": "Accept cryptocurrency and fiat payments via PassimPay. Supports 50+ cryptocurrencies.",
+        "long": "PassimPay payment gateway module allows WHMCS users to accept payments in over 50 cryptocurrencies and fiat currencies. Customers are redirected to the secure PassimPay payment page to complete the transaction. The module automatically processes webhook notifications and marks invoices as paid.",
+        "features": [
+            "Accept 50+ cryptocurrencies (BTC, ETH, USDT, and more)",
+            "Accept fiat/bank card payments",
+            "Automatic invoice payment via webhook callbacks",
+            "Secure HMAC-SHA256 signature verification",
+            "Easy setup — just Platform ID and API Key"
+        ]
+    },
+    "logo": {
+        "filename": "logo.png"
+    },
+    "support": {
+        "homepage": "https://passimpay.io/",
+        "learn_more": "https://passimpay.io/en/modules",
+        "email": "support@passimpay.io",
+        "support_url": "https://passimpay.io/",
+        "docs_url": "https://passimpay.gitbook.io/passimpay-api/"
+    },
+    "authors": [
+        {
+            "name": "PassimPay",
+            "homepage": "https://passimpay.io/"
+        }
+    ]
+}
